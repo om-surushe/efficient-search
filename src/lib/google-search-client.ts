@@ -58,7 +58,7 @@ export class GoogleSearchClient {
   /**
    * Get search suggestions (if available)
    */
-  async getSuggestions(query: string): Promise<string[]> {
+  async getSuggestions(_query: string): Promise<string[]> {
     // Google PSE doesn't provide autocomplete API
     // Return empty array for now, could integrate with another service
     return [];
