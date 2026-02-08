@@ -1,0 +1,59 @@
+{
+  "name": "@om-surushe/efficient-search",
+  "version": "0.1.0",
+  "description": "Efficient Search MCP - LLM-optimized web search using Google Programmable Search Engine with intelligent result formatting",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "efficient-search": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:bun": "bun build ./src/index.ts --outdir ./dist --target node --format esm",
+    "dev": "bun run --watch src/index.ts",
+    "test": "bun test",
+    "test:watch": "bun test --watch",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write 'src/**/*.ts'",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "mcp",
+    "google-search",
+    "programmable-search",
+    "web-search",
+    "llm",
+    "ai-assistant",
+    "efficient",
+    "search-engine"
+  ],
+  "author": {
+    "name": "Om Surushe",
+    "email": "om.surushe.connect@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/om-surushe/efficient-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/om-surushe/efficient-search/issues"
+  },
+  "homepage": "https://github.com/om-surushe/efficient-search#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "bun": ">=1.0.0"
+  }
+}
