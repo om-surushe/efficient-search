@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.0] - 2026-02-08
 
+### Published
+- 🎉 **First public release on npm!**
+- Published as `@om-surushe/efficient-search`
+- Available via `bunx @om-surushe/efficient-search`
+
 ### Added
 - Initial release of Efficient Search MCP
 - LLM-optimized Google Programmable Search Engine wrapper

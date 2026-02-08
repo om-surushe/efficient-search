@@ -1,11 +1,15 @@
 # Efficient Search
 
+[![npm version](https://img.shields.io/npm/v/@om-surushe/efficient-search.svg)](https://www.npmjs.com/package/@om-surushe/efficient-search)
+[![npm downloads](https://img.shields.io/npm/dm/@om-surushe/efficient-search.svg)](https://www.npmjs.com/package/@om-surushe/efficient-search)
 [![CI](https://github.com/om-surushe/efficient-search/actions/workflows/ci.yml/badge.svg)](https://github.com/om-surushe/efficient-search/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue.svg)](https://www.typescriptlang.org/)
 [![Bun](https://img.shields.io/badge/Bun-1.0+-f472b6.svg)](https://bun.sh/)
 
 **Part of the Efficient MCP series - Web search optimized for LLMs with intelligent caching and rich context.**
+
+> **🎉 Now Published!** Install with `bunx @om-surushe/efficient-search`
 
 ## Quick Start
 
